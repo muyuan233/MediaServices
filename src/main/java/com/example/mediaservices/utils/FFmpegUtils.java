@@ -473,6 +473,7 @@ public class FFmpegUtils {
                 outputFile.createNewFile();
             }
             List<String> commond = new ArrayList<String>();
+            commond.add("-y");
             commond.add("-ss");
             commond.add(startTime.toString());
             commond.add("-t");
@@ -489,7 +490,6 @@ public class FFmpegUtils {
         } catch (IOException e) {
             log.error("--- 视频截取过程出错 ---");
         }
-        System.out.println("sisssssssssssssssss");
     }
 
     /**

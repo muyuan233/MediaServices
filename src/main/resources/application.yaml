@@ -1,0 +1,7 @@
+server:
+  port: 8082
+
+
+root-path: C:\\Users\\zcy\\Desktop\\rtx\\
+video-path: cut-video\\
+image-path: cut-image\\
